@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Instalăm dependențele
-RUN pip install --no-cache-dir -r app/requirements.txt 
+RUN pip install --no-cache-dir -r requirements.txt 
 
 # Setăm PYTHONPATH pentru a include directorul de lucru
 ENV PYTHONPATH=/app
