@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Environnements virtuels ---
+venv/
+.env/
+.venv/
+
+# --- Configuration / secrets ---
+*.env
+.env.*
+.venv_TP2/
+
+# --- Tests & coverage ---
+.coverage
+htmlcov/
+.cache/
+.pytest_cache/
+*.log
+coverage.xml
+
+# --- IDE & éditeurs ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- MacOS / Windows ---
+.DS_Store
+Thumbs.db
+
+# --- Artifacts GitHub Actions ---
+*.zip
+*.tar.gz

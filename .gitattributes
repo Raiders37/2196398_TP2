@@ -1,2 +1,23 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Environnements virtuels
+venv/
+.env/
+
+# Fichiers Python compilés
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Caches de tests
+.pytest_cache/
+
+# Données temporaires
+*.sqlite3
+*.csv
+
+# Docker
+*.pid
