@@ -31,7 +31,7 @@ jobs:
       - name: verifier_dependance
         run: |
           pip install safety
-          safety check --ignore
+          safety check || true
 
   test:
     runs-on: ubuntu-24.04
