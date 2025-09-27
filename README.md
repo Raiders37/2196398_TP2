@@ -74,3 +74,5 @@ Technologies Used
 > [!WARNING]
 >For ```/favicon.ico```, browsers automatically request the ```favicon.ico``` file when accessing a URL.\
 > If you don't have a favicon configured, the server will return a ```404```.
+
+![CI](https://github.com/Raiders37/2196398_TP2/actions/workflows/ci.yml/badge.svg)
